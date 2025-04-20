@@ -28,6 +28,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "git": "git add . && git commit -m"
+
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
