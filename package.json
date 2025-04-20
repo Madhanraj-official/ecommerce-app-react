@@ -2,21 +2,55 @@
   "name": "ecommerce-app",
   "private": true,
   "version": "0.0.0",
+  "license": "MIT",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunobezerra/ecommerce-app.git"
+  },
+  "author": {
+    "name": "Madhanraj",
+    "email": "WwTbT@example.com",
+    "url": "https://github.com/brunobezerra",
+    "role": "Developer",
+    "organization": "brunobezerra",
+    "organizationUrl": "https://github.com/brunobezerra",
+    "twitter": "@brunobezerra",
+    "github": "brunobezerra",
+    "linkedin": "brunobezerra",
+    "website": "https://brunobezerra.com"
+  },
   "type": "module",
   "scripts": {
+    "start": "pnpm run build && vite",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "git": "git add . && git commit -m"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.2",
+    "@reduxjs/toolkit": "^2.7.0",
+    "axios": "^1.8.4",
+    "framer-motion": "^12.7.4",
+    "gsap": "^3.12.7",
+    "history": "^5.3.0",
+    "lenis": "^1.2.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.55.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/react-redux": "^7.1.34",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
@@ -24,6 +58,9 @@
     "globals": "^15.15.0",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
-    "vite": "^6.2.0"
+    "vite": "6.2.6",
+    "vite-plugin-pwa": "^1.0.0",
+    "vite-plugin-sitemap": "^0.7.1",
+    "vite-plugin-svgr": "^4.3.0"
   }
 }
