@@ -1,0 +1,122 @@
+.
+├── dist
+│   ├── assets
+│   │   ├── index-BT8-vyH0.css
+│   │   └── index-Bzv4l1Iu.js
+│   ├── compose.yaml
+│   ├── index.html
+│   ├── manifest.webmanifest
+│   ├── registerSW.js
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── sw.js
+│   ├── sw.js.map
+│   ├── vite.svg
+│   ├── workbox-0c1df648.js
+│   └── workbox-0c1df648.js.map
+├── eslint.config.js
+├── index.html
+├── manifest.ts
+├── map
+├── node_modules
+│   ├── axios -> .pnpm/axios@1.8.4/node_modules/axios
+│   ├── @emotion
+│   │   ├── react -> ../.pnpm/@emotion+react@11.14.0_@types+react@19.1.2_react@19.1.0/node_modules/@emotion/react
+│   │   └── styled -> ../.pnpm/@emotion+styled@11.14.0_@emotion+react@11.14.0_@types+react@19.1.2_react@19.1.0__@types+react@19.1.2_react@19.1.0/node_modules/@emotion/styled
+│   ├── @eslint
+│   │   └── js -> ../.pnpm/@eslint+js@9.25.0/node_modules/@eslint/js
+│   ├── eslint -> .pnpm/eslint@9.25.0/node_modules/eslint
+│   ├── eslint-plugin-react-hooks -> .pnpm/eslint-plugin-react-hooks@5.2.0_eslint@9.25.0/node_modules/eslint-plugin-react-hooks
+│   ├── eslint-plugin-react-refresh -> .pnpm/eslint-plugin-react-refresh@0.4.19_eslint@9.25.0/node_modules/eslint-plugin-react-refresh
+│   ├── framer-motion -> .pnpm/framer-motion@12.7.4_@emotion+is-prop-valid@1.3.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/framer-motion
+│   ├── globals -> .pnpm/globals@15.15.0/node_modules/globals
+│   ├── gsap -> .pnpm/gsap@3.12.7/node_modules/gsap
+│   ├── history -> .pnpm/history@5.3.0/node_modules/history
+│   ├── lenis -> .pnpm/lenis@1.2.3_react@19.1.0/node_modules/lenis
+│   ├── @mui
+│   │   └── material -> ../.pnpm/@mui+material@7.0.2_@emotion+react@11.14.0_@types+react@19.1.2_react@19.1.0__@emotion+s_16c1d2f6f86d9de5116733da56994f75/node_modules/@mui/material
+│   ├── react -> .pnpm/react@19.1.0/node_modules/react
+│   ├── react-dom -> .pnpm/react-dom@19.1.0_react@19.1.0/node_modules/react-dom
+│   ├── react-hook-form -> .pnpm/react-hook-form@7.56.0_react@19.1.0/node_modules/react-hook-form
+│   ├── react-redux -> .pnpm/react-redux@9.2.0_@types+react@19.1.2_react@19.1.0_redux@5.0.1/node_modules/react-redux
+│   ├── react-router-dom -> .pnpm/react-router-dom@7.5.1_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/react-router-dom
+│   ├── @reduxjs
+│   │   └── toolkit -> ../.pnpm/@reduxjs+toolkit@2.7.0_react-redux@9.2.0_@types+react@19.1.2_react@19.1.0_redux@5.0.1__react@19.1.0/node_modules/@reduxjs/toolkit
+│   ├── @types
+│   │   ├── react -> ../.pnpm/@types+react@19.1.2/node_modules/@types/react
+│   │   ├── react-dom -> ../.pnpm/@types+react-dom@19.1.2_@types+react@19.1.2/node_modules/@types/react-dom
+│   │   ├── react-redux -> ../.pnpm/@types+react-redux@7.1.34/node_modules/@types/react-redux
+│   │   └── react-router-dom -> ../.pnpm/@types+react-router-dom@5.3.3/node_modules/@types/react-router-dom
+│   ├── typescript -> .pnpm/typescript@5.7.3/node_modules/typescript
+│   ├── typescript-eslint -> .pnpm/typescript-eslint@8.30.1_eslint@9.25.0_typescript@5.7.3/node_modules/typescript-eslint
+│   ├── vite -> .pnpm/vite@6.2.6_terser@5.39.0/node_modules/vite
+│   ├── @vitejs
+│   │   └── plugin-react -> ../.pnpm/@vitejs+plugin-react@4.4.1_vite@6.2.6_terser@5.39.0_/node_modules/@vitejs/plugin-react
+│   ├── vite-plugin-pwa -> .pnpm/vite-plugin-pwa@1.0.0_vite@6.2.6_terser@5.39.0__workbox-build@7.3.0_@types+babel__core@7.20.5__workbox-window@7.3.0/node_modules/vite-plugin-pwa
+│   ├── vite-plugin-sitemap -> .pnpm/vite-plugin-sitemap@0.7.1/node_modules/vite-plugin-sitemap
+│   └── vite-plugin-svgr -> .pnpm/vite-plugin-svgr@4.3.0_rollup@2.79.2_typescript@5.7.3_vite@6.2.6_terser@5.39.0_/node_modules/vite-plugin-svgr
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── public
+│   └── vite.svg
+├── README.md
+├── src
+│   ├── App.tsx
+│   ├── assets
+│   │   ├── index.ts
+│   │   └── react.svg
+│   ├── components
+│   │   ├── HeaderComponent.tsx
+│   │   ├── index.ts
+│   │   └── ThemeChangerComponent.tsx
+│   ├── hooks
+│   │   ├── index.ts
+│   │   └── useTheme.tsx
+│   ├── layouts
+│   │   ├── DefaultLayout.tsx
+│   │   └── index.ts
+│   ├── main.tsx
+│   ├── pages
+│   │   ├── Error404.tsx
+│   │   ├── Error500.tsx
+│   │   ├── HomePage.tsx
+│   │   ├── index.ts
+│   │   └── SettingsPage.tsx
+│   ├── routes
+│   │   ├── index.ts
+│   │   └── PageRouter.ts
+│   ├── services
+│   │   └── index.ts
+│   ├── store
+│   │   └── index.ts
+│   ├── styles
+│   │   ├── color.css
+│   │   ├── components
+│   │   │   ├── HeaderComponent.module.css
+│   │   │   └── index.ts
+│   │   ├── index.css
+│   │   ├── layouts
+│   │   │   └── index.ts
+│   │   ├── pages
+│   │   │   └── index.ts
+│   │   ├── theme
+│   │   │   ├── dark.css
+│   │   │   ├── dark-hc.css
+│   │   │   ├── dark-mc.css
+│   │   │   ├── light.css
+│   │   │   ├── light-hc.css
+│   │   │   └── light-mc.css
+│   │   ├── theme.css
+│   │   └── widgets
+│   │       └── index.ts
+│   ├── vite-env.d.ts
+│   └── widgets
+│       ├── index.ts
+│       └── SearchBarWidget.tsx
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+57 directories, 63 files
