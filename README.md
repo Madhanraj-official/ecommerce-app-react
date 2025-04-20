@@ -34,7 +34,7 @@ To run the project locally, use:
 npm run dev
 ```
 
-This will start the Vite development server. You can view the project at `http://localhost:3000`.
+This will start the Vite development server. You can view the project at `http://localhost:`.
 
 ---
 
@@ -163,7 +163,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [GSAP Documentation](https://greensock.com/docs/)
 - [Lenis Documentation](https://lenis.app/)
 - [Material UI Documentation](https://mui.com/)
-```
+
 
 
 
